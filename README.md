@@ -1,12 +1,16 @@
 # rutholatunji.github.io
 Created with CodeSandbox
 
-The homepage is a starting point for our site and includes a more general overview of current health news, also categorizing into Women, Men and Children
+- The homepage is a starting point for our site and includes a more general overview of current health news, also categorizing into Women, Men and Children
 Our other 2 pages focus on Mental Health and Innovation in Health 
-3 pages that have a consistent look, for example the banner running across the top of each page, but have subtle differences to keep them individual 
-Main feature of website = embedded podcasts (radiopublic.com) lucky to find this as it gave the format of our website more shape 
-Also have links to news stories, articles and other resources
-We didn’t want to exclude any groups so have tried to make it accessible for hard of hearing viewers - links to transcribed podcasts and videos with subtitles
+
+- 3 pages that have a consistent look, for example the banner running across the top of each page, but have subtle differences to keep them individual 
+
+- Main feature of website = embedded podcasts (radiopublic.com) lucky to find this as it gave the format of our website more shape 
+
+- Also have links to news stories, articles and other resources
+
+-We didn’t want to exclude any groups so have tried to make it accessible for hard of hearing viewers - links to transcribed podcasts and videos with subtitles
 Making it more mobile friendly, the first link on homepage will open Spotify App when opens on a mobile device
 
 Starting at the top:
