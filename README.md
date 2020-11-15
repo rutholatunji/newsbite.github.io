@@ -11,7 +11,7 @@ Our other 2 pages focus on Mental Health and Innovation in Health
 
 - Also have links to news stories, articles and other resources.
 
-We didn’t want to exclude any groups so have tried to make it accessible for hard of hearing viewers - links to transcribed podcasts and videos with subtitles
+- We didn’t want to exclude any groups so have tried to make it accessible for hard of hearing viewers - links to transcribed podcasts and videos with subtitles
 Making it more mobile friendly, the first link on homepage will open Spotify App when opens on a mobile device
 
 ### Styling description
