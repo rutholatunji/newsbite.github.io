@@ -1,6 +1,7 @@
-# rutholatunji.github.io
+# Newsbite
 Created with CodeSandbox
 
+### Layout description
 - The homepage is a starting point for our site and includes a more general overview of current health news, also categorizing into Women, Men and Children
 Our other 2 pages focus on Mental Health and Innovation in Health 
 
@@ -13,6 +14,7 @@ Our other 2 pages focus on Mental Health and Innovation in Health
 We didn’t want to exclude any groups so have tried to make it accessible for hard of hearing viewers - links to transcribed podcasts and videos with subtitles
 Making it more mobile friendly, the first link on homepage will open Spotify App when opens on a mobile device
 
+### Styling description
 Starting at the top:
 - 2 Navigations - news website theme
 - In-line Instagram, Facebook, LinkedIn icons - https://fontawesome.com/v4.7.0/icons/
@@ -23,3 +25,6 @@ Starting at the top:
 - Bootstrap card - make the website look 3D and mini headlines standout 
 - Media queries - changed font-size (carousel captions) to be mobile - friendly 
 - Form modal for inquiries about our website 
+
+### See it live on the github page
+![Alt Text](http://bestanimations.com/Signs&Shapes/Arrows/Right/right-arrow-rotating-green.gif)
