@@ -26,5 +26,5 @@ Starting at the top:
 - Media queries - changed font-size (carousel captions) to be mobile - friendly 
 - Form modal for inquiries about our website 
 
-### See it live on the github page
+### See it live on our github page
 ![Alt Text](http://bestanimations.com/Signs&Shapes/Arrows/Right/right-arrow-rotating-green.gif)
