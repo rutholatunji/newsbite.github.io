@@ -1,6 +1,12 @@
 # Newsbite
 Created with CodeSandbox
 
+### Objective
+The objective of this project was to created a news website for podcasts and bridge the gap between podcasting and people with hearing loss. To do this we featured podcasts that had a transcript and links to websites that offer a transcription service.
+
+### Goals
+We would like to expand this webpage beyond Health and include categories such as Comedy, Sports, Technology and Weather etc. We'd also like to create profiles and a forum that podcasters can use to discuss and exchange ideas.
+
 ### Layout description
 - The homepage is a starting point for our site and includes a more general overview of current health news, also categorizing into Women, Men and Children
 Our other 2 pages focus on Mental Health and Innovation in Health 
@@ -28,3 +34,4 @@ Starting at the top:
 
 ### See it live on our github page
 ![Alt Text](http://bestanimations.com/Signs&Shapes/Arrows/Right/right-arrow-rotating-green.gif)
+
