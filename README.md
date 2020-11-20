@@ -2,7 +2,7 @@
 Created with CodeSandbox
 
 ### Objective
-The objective of this project was to created a news website for podcasts and bridge the gap between podcasting and people with hearing loss. To do this we featured podcasts that had a transcript and links to websites that offer a transcription service.
+The objective of this project was to create a news website for podcasts and bridge the gap between podcasting and people with hearing loss. To do this we featured podcasts that had a transcript and links to websites that offer a transcription service.
 
 ### Goals
 We would like to expand this webpage beyond Health and include categories such as Comedy, Sports, Technology and Weather etc. We'd also like to create profiles and a forum that podcasters can use to discuss and exchange ideas.
