@@ -143,126 +143,63 @@ style="background-color: black;">
     </div>
   </div>
         
-  <header class=healthcarePod> SEND US A MESSAGE  </header>
+  <header class=healthcarePod> SUBMIT YOUR PODCAST  </header>
 
   
-        <!-- <form>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6 offset-md-3">
-                 
-          <div class="form-group">
-               <label for="fname">Name:</label>
-               <input type="text"  class="form-control"  placeholder="Name"   >
-          </div>
-          
-          <div class="form-group">
-               <label for="lname">Topic</label>
-               <input type="text"  class="form-control"  placeholder="Topic"  >
-          </div>
-          
-               <div class="form-group">
-                  <label for="comment">Message:</label>
-                  <textarea class="form-control" rows="5" id="comment"></textarea>
-                </div>
-          </div>
-                </div>
-              </div>
-            </div>
-          
-        </form>
-
-        <!-- button -->
-
-        <!-- <div class="container">
-            <div class="row justify-content-center">
-        <button type="button" class="btn btn-primary btn-lg" id="myBtn">
-          Submit
-        </button>
-        </div>
-    -->
-        <!-- modal -->
-      <!-- </div>
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Thank you!</h5>
-              <button
-                type="button"
-                class="open"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body" id="modal">
-              <p>Message you sent:</p>
-              <div id="nameDiv">
-                <p><b>Name:</b></p>
-              </div>
-              <div id="topicDiv">
-                <p><b>Topic:</b></p>
-              </div>
-              <div id="messageDiv">
-                <p><b>Message:</b></p>
-              </div>
-              <p>Thank you for sending your message, I will respond soon!</p>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div> -->
-    <!-- </span> -->
-
-<!-- 
-  </div>
-</div> -->
 
 <main>
 <div class="row">
-  <div class="col-md-6 offset-md-3">
-    <form id="contactForm">
+  <div  class="col-md-6 offset-md-3">
+    <form  id="contactForm">
       <div class="form-group row">
         <label for="f_name" class="col-sm-2 col-form-label">Name</label>
         <div class="col-sm-10">
-          <input name="f_name" placeholder="Name..." class="form-control" />
+          <input  type="text submit" 
+          name="f_name" 
+          placeholder="Name..." 
+          class="form-control" />
         </div>
       </div>
 
       <div class="form-group row">
-        <label for="f_topic" 
-        class="col-sm-2 col-form-label">Topic</label>
+        <label for="f_email" 
+        class="col-sm-2 col-form-label">Email</label>
         <div class="col-sm-10">
-          <input name="f_topic" placeholder="Topic..." class="form-control" />
+          <input type="email submit" 
+          name="f_email" 
+          placeholder="Email..." 
+          class="form-control" />
         </div>
       </div>
 
       <div class="form-group row">
-        <label for="f_message" class="col-sm-2 col-form-label">Message</label>
+          <label for="f_url" 
+          class="col-sm-2 col-form-label">Link</label>
+          <div class="col-sm-10">
+            <input type="url submit" 
+            name="f_url" 
+            placeholder="link..." 
+            class="form-control" />
+          </div>
+        </div>
+
+      <div class="form-group row">
+        <label for="f_message" 
+        class="col-sm-2 col-form-label">Message</label>
         <div class="col-sm-10">
-          <textarea name="f_message" placeholder="Message..." class="form-control"></textarea>
+          <textarea name="f_message" 
+          placeholder="Please include a brief summary of your podcast..." 
+          class="form-control"></textarea>
         </div>
       </div>
 
       <div class="container">
         <div class="row justify-content-center">
-      <input type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="formSubmit"></input>
+      <input type="submit" 
+      class="btn btn-primary" 
+      data-toggle="modal" 
+      data-target="#exampleModal" 
+      id="formSubmit"></input>
     </form>
 
 
@@ -271,7 +208,8 @@ style="background-color: black;">
 </main>
 </div>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<div class="modal fade" id="exampleModal" tabindex="-1" 
+role="dialog" aria-labelledby="exampleModalLabel"
 aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
@@ -288,9 +226,13 @@ aria-hidden="true">
       <p><b>Name:</b></p>
     </div>
 
-    <div id="topicDiv">
-      <p><b>Topic:</b></p>
+    <div id="emailDiv">
+      <p><b>Email:</b></p>
     </div>
+
+    <div id="urlDiv">
+        <p><b>Url:</b></p>
+      </div>
 
     <div id="messageDiv">
       <p><b>Message:</b></p>
