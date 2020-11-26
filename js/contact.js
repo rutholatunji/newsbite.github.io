@@ -1,6 +1,12 @@
 let alreadySubmitted = false;
 
-function appendModal(nameValue, emailValue, urlValue, messageValue) {
+function appendModal(
+  nameValue,
+  emailValue,
+  urlValue,
+  categoryValue,
+  messageValue
+) {
   if (alreadySubmitted === true) {
     //remove elements
 
@@ -12,6 +18,9 @@ function appendModal(nameValue, emailValue, urlValue, messageValue) {
 
     const usedUrlField = document.getElementById("urlField");
     usedUrlField.remove();
+
+    const usedCategoryField = document.getElementById("categoryField");
+    usedCategoryField.remove();
 
     const usedMessageField = document.getElementById("messageField");
     usedMessageField.remove();
@@ -34,6 +43,11 @@ function appendModal(nameValue, emailValue, urlValue, messageValue) {
   urlField.textContent = urlValue;
   document.getElementById("urlDiv").appendChild(urlField);
 
+  const categoryField = document.createElement("p");
+  categoryField.setAttribute("id", "categoryField");
+  categoryField.textContent = categoryValue;
+  document.getElementById("categoryDiv").appendChild(categoryField);
+
   // Add message text to modal
   const messageField = document.createElement("p");
   messageField.setAttribute("id", "messageField");
@@ -45,9 +59,10 @@ function appendModal(nameValue, emailValue, urlValue, messageValue) {
 
 appendModal(
   "Code First Girls",
-  "codefirstgirls@mail.com",
-  "https://codefirstgirls.org.uk/",
-  "Add our podcast to your website please!"
+  "Email address",
+  "Link",
+  "Health",
+  "We want a new website, please help!"
 );
 
 const form = document.getElementById("contactForm");
@@ -58,9 +73,10 @@ form.addEventListener("submit", function (event) {
   const nameField = document.getElementsByName("f_name")[0].value;
   const emailField = document.getElementsByName("f_email")[0].value;
   const urlField = document.getElementsByName("f_url")[0].value;
+  const categoryField = document.getElementsByName("f_category")[0].value;
   const messageField = document.getElementsByName("f_message")[0].value;
 
-  appendModal(nameField, emailField, urlField, messageField);
+  appendModal(nameField, emailField, urlField, categoryField, messageField);
 });
 
 // Add event listener
