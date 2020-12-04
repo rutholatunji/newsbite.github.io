@@ -57,13 +57,13 @@ function appendModal(
   alreadySubmitted = true;
 }
 
-appendModal(
-  "Code First Girls",
-  "Email address",
-  "Link",
-  "Health",
-  "We want a new website, please help!"
-);
+// appendModal(
+//   "Code First Girls",
+//   "Email address",
+//   "Link",
+//   "Health",
+//   "We want a new website, please help!"
+// );
 
 const form = document.getElementById("contactForm");
 
@@ -77,6 +77,8 @@ form.addEventListener("submit", function (event) {
   const messageField = document.getElementsByName("f_message")[0].value;
 
   appendModal(nameField, emailField, urlField, categoryField, messageField);
+
+  $("#exampleModal").modal();
 });
 
 // Add event listener
