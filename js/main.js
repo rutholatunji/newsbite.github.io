@@ -1,3 +1,5 @@
+//Search bar JavaScript
+
 // FIlter anything
 $(document).ready(function () {
   $("#anythingSearch").on("keyup", function () {
