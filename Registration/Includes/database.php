@@ -2,7 +2,7 @@
 
 
 // Params to connect to a database 
-$dbHost = "localhost"; // if using a website need to add different host
+$dbHost = //"localhost"; // if using a website need to add different host
 $dbUser = "root";
 $dbPass = ""; // if using website may need password
 $dbName = "phptutorial";
