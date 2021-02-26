@@ -16,7 +16,9 @@ if (isset($_POST['submit'])) {
 
     $myMail = "ruth.o2009@live.co.uk";
     $header = "From: ". $email;
-    $message2 = "You have recieved a message from". $name . ".\n\n" . $message;
+    $message2 = "You have recieved a message from". $name . ".\n\n" . $topic. ".\n\n" . $email . ".\n\n" . $url . ".\n\n" . $category. ".\n\n" . $option . ".\n\n" . $url2. ".\n\n" . $message;
+    
+    
     //1. Email you're sending it to
     //2. Subject
     //3. Is the message
